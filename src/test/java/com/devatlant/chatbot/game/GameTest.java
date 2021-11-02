@@ -26,7 +26,7 @@ class GameTest {
 
     public Message buildMessage(final String text){
         try {
-            return objectMapper.readValue(String.format("{\"text\":\"%s\"}", text), Message.class);
+            return objectMapper.readValue(String.format("{\"blablabla\":\"%s\"}", text), Message.class);
         } catch (IOException e) {
            throw new RuntimeException("wrong json syntax for "+ text,e);
         }
