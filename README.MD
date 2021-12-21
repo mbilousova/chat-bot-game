@@ -1,3 +1,5 @@
+https://github.com/mbilousova/chat-bot-game/actions/workflows/main.yml/badge.svg
+
 # Simple Telegram based game
 
 This project uses under the hood a popular java abstraction library for accessing Telegram Bot API - [org.telegram.telegrambots](https://github.com/rubenlagus/TelegramBots)
@@ -52,3 +54,4 @@ Le projet utilise des méthodologies agiles pour faire de l'ingénierie inverse 
 Projet : Portail de test
 
 Projet interne pour la création et le passage de tests - plateforme de quiz pour les epamers.
+
