@@ -82,6 +82,8 @@ public class BotEngine extends TelegramLongPollingBot {
             .setChatId(message.getChatId())
             .setReplyToMessageId(message.getMessageId())
             .setText(text);
+        LOGGER.info(String.format("send response [%s] to client [%s %s]",
+            text, message.getFrom().getFirstName(), message.getFrom().getLastName()));
         try {
             sendMessage(messageToBeSend); // Call method to send the message
         } catch (TelegramApiException e) {
