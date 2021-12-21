@@ -1,4 +1,4 @@
-https://github.com/mbilousova/chat-bot-game/actions/workflows/main.yml/badge.svg
+![Workflow status](https://github.com/mbilousova/chat-bot-game/actions/workflows/main.yml/badge.svg)
 
 # Simple Telegram based game
 
